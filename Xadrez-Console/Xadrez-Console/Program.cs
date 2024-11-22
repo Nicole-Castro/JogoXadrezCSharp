@@ -9,13 +9,20 @@ class Program
     {
         try
         {
-            PartidaDeXadrez partida= new PartidaDeXadrez();
-            while(!partida.Terminada){
+            PartidaDeXadrez partida = new PartidaDeXadrez();
+            while (!partida.Terminada)
+            {
                 Console.Clear();
                 Tela.ImprimirTabuleiro(partida.Tab);
                 System.Console.WriteLine();
                 Console.Write("Origem: ");
                 Posicao origem = Tela.LerPosicaoXadrez().toPosicao();
+
+                bool[,] posicoesPossiveis = partida.Tab.Peca(origem).MovimentosPossiveis();
+
+                Console.Clear();
+                Tela.ImprimirTabuleiro(partida.Tab, posicoesPossiveis);
+                System.Console.WriteLine();
                 Console.Write("Destino: ");
                 Posicao destino = Tela.LerPosicaoXadrez().toPosicao();
 

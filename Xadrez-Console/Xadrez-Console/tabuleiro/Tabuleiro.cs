@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace tabuleiro
 {
-    public class Tabuleiro
+    class Tabuleiro
     {
         public int Linhas { get; set; }
         public int Colunas { get; set; }
@@ -18,19 +18,19 @@ namespace tabuleiro
             Pecas = new Peca[linhas, colunas];
         }
 
-        public Peca peca(int linha, int coluna)
+        public Peca Peca(int linha, int coluna)
         {
             return Pecas[linha, coluna];
         }
-        public Peca peca(Posicao pos)
+        public Peca Peca(Posicao pos)
         {
             return Pecas[pos.Linha, pos.Coluna];
         }
         public bool existePeca(Posicao pos){
             validarPosicao(pos);
-            return peca(pos) != null;
+            return Peca(pos) != null;
         }
-        public void colocarPeca(Peca p, Posicao pos)
+        public void ColocarPeca(Peca p, Posicao pos)
         {
             if(existePeca(pos)){
                 throw new TabuleiroException("Já existe uma peça na posição!");
@@ -39,17 +39,17 @@ namespace tabuleiro
             p.Posicao = pos;
         }
 
-        public Peca retirarPeca(Posicao pos){
-            if(peca(pos) == null){
+        public Peca RetirarPeca(Posicao pos){
+            if(Peca(pos) == null){
                 return null;
             }
 
-            Peca aux = peca(pos);
+            Peca aux = Peca(pos);
             aux.Posicao = null;
             Pecas[pos.Linha,pos.Coluna] = null;
             return aux;
         }
-        public bool posicaoValida(Posicao pos)
+        public bool PosicaoValida(Posicao pos)
         {
             if (pos.Linha < 0 || pos.Linha >= Linhas || pos.Coluna < 0 || pos.Coluna >= Colunas)
             {
@@ -60,7 +60,7 @@ namespace tabuleiro
 
         public void validarPosicao(Posicao pos)
         {
-            if (!posicaoValida(pos))
+            if (!PosicaoValida(pos))
             {
                 throw new TabuleiroException("Posição Inválida!");
             }
