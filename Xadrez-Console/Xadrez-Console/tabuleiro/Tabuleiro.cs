@@ -32,6 +32,9 @@ namespace tabuleiro
         }
         public void colocarPeca(Peca p, Posicao pos)
         {
+            if(existePeca(pos)){
+                throw new TabuleiroException("Já existe uma peça na posição!");
+            }
             Pecas[pos.Linha, pos.Coluna] = p;
             p.Posicao = pos;
         }
