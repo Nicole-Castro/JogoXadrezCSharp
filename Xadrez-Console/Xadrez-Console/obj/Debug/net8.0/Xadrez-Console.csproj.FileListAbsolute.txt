@@ -1,0 +1,14 @@
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/bin/Debug/net8.0/Xadrez-Console
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/bin/Debug/net8.0/Xadrez-Console.deps.json
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/bin/Debug/net8.0/Xadrez-Console.runtimeconfig.json
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/bin/Debug/net8.0/Xadrez-Console.dll
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/bin/Debug/net8.0/Xadrez-Console.pdb
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.AssemblyInfoInputs.cache
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.AssemblyInfo.cs
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.csproj.CoreCompileInputs.cache
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.dll
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/refint/Xadrez-Console.dll
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.pdb
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.genruntimeconfig.cache
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/ref/Xadrez-Console.dll
