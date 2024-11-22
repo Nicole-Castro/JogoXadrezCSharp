@@ -12,3 +12,4 @@
 /home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.pdb
 /home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.genruntimeconfig.cache
 /home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/ref/Xadrez-Console.dll
+/home/nicole/Documentos/C#/ProjetoXadrez/Xadrez-Console/Xadrez-Console/obj/Debug/net8.0/Xadrez-Console.sourcelink.json

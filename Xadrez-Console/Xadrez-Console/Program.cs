@@ -9,12 +9,19 @@ class Program
     {
         try
         {
-            Tabuleiro tab = new Tabuleiro(8, 8);
-            tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
-            tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 3));
-            tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(3, 5));
+            PartidaDeXadrez partida= new PartidaDeXadrez();
+            while(!partida.Terminada){
+                Console.Clear();
+                Tela.ImprimirTabuleiro(partida.Tab);
+                System.Console.WriteLine();
+                Console.Write("Origem: ");
+                Posicao origem = Tela.LerPosicaoXadrez().toPosicao();
+                Console.Write("Destino: ");
+                Posicao destino = Tela.LerPosicaoXadrez().toPosicao();
 
-            Tela.ImprimirTabuleiro(tab);
+                partida.ExecutaMovimento(origem, destino);
+            }
+
         }
         catch (TabuleiroException e)
         {
